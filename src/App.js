@@ -12,6 +12,9 @@ import FeedbackForm from './components/FeedbackForm'
 import FeedbackData from './data/FeedbackData'
 import About from './pages/About'
 import AboutIconLink from './components/AboutIconLink';
+import { FeedbackProvider } from './context/FeedbackContext';
+
+
 function App() {
   const [feedback, setFeedback] = useState(FeedbackData)
 
